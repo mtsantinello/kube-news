@@ -24,6 +24,6 @@ jobs:
             context: ./src
             push: true
             tags: |
-              mtsantinello/kube-news:latest
-              mtsantinello/kube-news:${{github.run_number}}
+              msantinello/kube-news:latest
+              msantinello/kube-news:${{github.run_number}}
           
